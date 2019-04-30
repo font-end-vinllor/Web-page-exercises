@@ -1,0 +1,406 @@
+body,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 2500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+
+/*图标定义*/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot');
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont/iconfont.woff2') format('woff2'), url('iconfont/iconfont.woff') format('woff'), url('iconfont/iconfont.ttf') format('truetype'), url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.topbar {
+    /* border: 1px solid black;*/
+    background-color: #333;
+    height: 40px;
+}
+
+.container {
+    /*  border: 1px solid black;*/
+    margin: 0 auto;
+    width: 1226px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topbar a {
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.topbar a:hover {
+    color: #fff;
+}
+
+.topbar-cart a {
+    display: block;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    background-color: #424242;
+    text-align: center;
+}
+
+.topbar-cart i {
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+
+.topbar span {
+    margin-left: 4px;
+    font-size: 12px;
+}
+
+.topbar-cart a:hover {
+    background-color: #fff;
+    color: #ff6700;
+}
+
+.topbar-info a {
+    float: left;
+    padding: 0 5px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.topbar-info span {
+    float: left;
+    font-family: sans-serif;
+    color: #424242;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0.5em;
+}
+
+.topbar-info .sep {
+    padding: 0 10px;
+}
+
+.topbar-cart {
+    margin-right: 10px;
+}
+
+
+/*清除浮动并且解决Margin重叠问题*/
+
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.container::after,
+.clearfix::after {
+    clear: both;
+}
+
+.topbar-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0px;
+}
+
+.topbar-nav span {
+    font-size: 12px;
+    color: #424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+
+.topbar-cart,
+.topbar-info {
+    float: right;
+}
+
+.header {
+    height: 100px;
+}
+
+.header-logo {
+    float: left;
+    width: 62px;
+    height: 55px;
+    margin-top: 22px;
+}
+
+.header-logo a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: #ff6700 url(../img/mi-logo.png) no-repeat 60% 60%;
+}
+
+.header-logo .rl {
+    text-align: left;
+    text-indent: -99999em;
+}
+
+.header-nav {
+    width: 820px;
+    height: 88px;
+}
+
+.header-nav .nav-list {
+    width: 820px;
+    height: 88px;
+    font-size: 16px;
+    padding: 12px 0 0 30px;
+}
+
+.header-nav,
+.nav-list,
+.nav-item {
+    float: left;
+}
+
+.header-nav .nav-list .nav-category {
+    float: left;
+    padding: 0 15px 0;
+}
+
+.header-nav .nav-list li a:hover {
+    color: #ff6700;
+}
+
+.header-nav .nav-list .nav-category a {
+    display: block;
+    padding: 26px 0px 38px;
+    text-align: right;
+    color: #333;
+}
+
+.header-nav .nav-list .nav-item,
+.nav-category {
+    list-style-type: none;
+}
+
+.header-nav .nav-list .nav-item a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+
+.header-search {
+    float: right;
+    width: 296px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.header-search .search-form {
+    display: block;
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+
+.header-search .search-form .search-text {
+    display: block;
+    width: 223px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    right: 51px;
+}
+
+.header-search .search-form .search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    color: #616161;
+    background-color: #fff;
+    line-height: 50px;
+    font-size: 28px;
+    outline: 0;
+}
+
+.header-search .search-form .search-btn:hover {
+    background-color: #ff6700;
+}
+
+.seckill {
+    background: #f5f5f5;
+    /*  width: 800px; */
+}
+
+.seckill-nav {
+    margin: -68px 0 22px;
+}
+
+.seckill .seckill-header {
+    height: 170px;
+    margin-top: 19px;
+    background: url(../img/3cba013aa492551729f3a42e1668b9d9.jpg) no-repeat 50% 0;
+    background-size: cover;
+}
+
+.seckill-nav ul {
+    background: #414141;
+    height: 68px;
+    list-style-type: none;
+}
+
+.active {
+    background-color: #f1393a;
+}
+
+.seckill-nav ul li {
+    display: block;
+    height: 68px;
+    line-height: 68px;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.seckill-nav li em {
+    display: inline-block;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.seckill-nav li span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.seckill-nav li span em {
+    display: inline-block;
+    font-style: normal;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 0;
+    line-height: 20px;
+    vertical-align: left;
+}
+
+.seckill-goods ul {
+    margin-right: -13px;
+}
+
+.seckill-goods li {
+    width: 400px;
+    height: 190px;
+    background: #fff;
+    list-style: none;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+
+.seckill-goods .bg {
+    width: 190px;
+    height: 190px;
+    float: left;
+    background: #e9e9e9;
+}
+
+.seckill-goods .bg img {
+    width: 190px;
+}
+
+.seckill-goods .info {
+    width: 190px;
+    height: 190px;
+    margin-left: 210px;
+    padding-top: 30px;
+}
+
+.seckill-goods .info .name {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.seckill-goods .info .tips {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 7px;
+}
+
+.seckill-goods .info .price {
+    font-size: 16px;
+    color: #f1393a;
+    margin-top: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.seckill-goods .info .price del {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #999;
+}
+
+.seckill-goods .info .btn {
+    display: block;
+    width: 118px;
+    height: 28px;
+    font-size: 14px;
+    background: #83c44e;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #b0b0b0;
+    margin-top: 19px;
+}
+
+.seckill-goods .info .person {
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 10px;
+}
+
+.skillnotic {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.27);
+    margin-top: 100px;
+}
