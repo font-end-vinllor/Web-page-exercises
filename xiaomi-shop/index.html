@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>小米商城</title>
-    <link href="/home/vinllor/xiaomi-shop/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -89,8 +89,8 @@
     <div class="seckill">
         <div class="seckill-header"></div>
         <div class="container">
-            <div class="seckill-nav">
-                <ul>
+            <div id="list-nav" class="seckill-nav seckill-navfixed">
+                <ul id="tabs">
                     <li class="active"><em>20:00</em><span><em>即将开始<br/>
                         距开始 00:54:54</em></span></li>
                     <li><em>10:00</em> <span>明日开始</span></li>
@@ -100,8 +100,309 @@
             </div>
         </div>
         <!--商-->
-        <div class="seckill-goods container">
-            <ul class="clearfix">
+        <div id="lists" class="seckill-goods container">
+            <!--第一个列表名对应的列表-->
+            <ul class="clearfix active">
+                <li>
+                    <div class="bg">
+                        <img src="img/68190260955234a11b15c5c8124e27cc.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+            </ul>
+            <!--第二个列表名对应的列表-->
+            <ul>
+                <li>
+                    <div class="bg">
+                        <img src="img/68190260955234a11b15c5c8124e27cc.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+            </ul>
+            <!--第三个列表名对应的列表-->
+            <ul>
+                <li>
+                    <div class="bg">
+                        <img src="img/68190260955234a11b15c5c8124e27cc.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+            </ul>
+            <!--第四个列表名对应的列表-->
+            <ul>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/4f90a8831baa2ac6c8c507927fa989af.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/53d32c5e55cba00b473b48908c571f02.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bg">
+                        <img src="img/d3480d56fd89dc2f80e2ec1653e718d1.jpg" />
+                    </div>
+                    <div class="info">
+                        <a class="name" href=""> 小米8 移动4G+版 6GB+128GB 蓝色</a>
+                        <p class="tips">全球首款双频GPS，骁龙845</p>
+                        <p class="price">2099.00元 <del>2000元</del></p>
+                        <a class="btn" href="">提醒我</a>
+                        <p class="person">已有243人设置提醒</p>
+                    </div>
+                </li>
+            </ul>
+            <!--第五个列表名对应的列表-->
+            <ul>
                 <li>
                     <div class="bg">
                         <img src="img/68190260955234a11b15c5c8124e27cc.jpg" />
@@ -186,7 +487,7 @@
     </div>
 
 
-
+    <script src="js/index.js"></script>
 </body>
 
 </html>
