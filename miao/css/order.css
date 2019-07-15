@@ -1,0 +1,163 @@
+body {
+    font: 12px/1.5 tahoma, arial, "\5b8b\4f53";
+    color: #3c3c3c;
+}
+
+.order-orderDesc {
+    width: 88%;
+    margin: 30px auto 10px auto;
+    line-height: 25px;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center
+   
+}
+.order-orderDesc .buy-th {
+    margin-top: 15px;
+    color: #6C6C6C;
+
+}
+
+.order-orderDesc .buy-td {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 3px solid #533335;
+    font-size: 12px;
+    margin-left: 1px;
+    vertical-align: bottom;
+}
+
+.order-orderDesc .td-0 {
+    width: 180px;
+    margin-left: 0;
+}
+
+.order-orderDesc .td-1 {
+    width: 180px;
+}
+
+.order-orderDesc .td-2 {
+    width: 140px;
+}
+
+.order-orderDesc .td-3 {
+    width: 140px;
+}
+
+.order-orderDesc .td-4 {
+    width: 180px;
+}
+
+.order-orderDesc .td-5 {
+    width: 140px;
+}
+
+.order-orderDesc .td-6 {
+    width: 140px;
+}
+
+.order-order {
+   
+    width: 100%;
+  
+}
+
+
+.order-item {
+    border-bottom: 3px solid #b2d1ff;
+    background-color: #fcfcfc;
+    height: 160px;
+    width: 88%;
+    margin: 0 auto;
+    font-size: 14px;
+  
+}
+
+.order-item div {
+    float: left;
+    margin: 0 2px;
+}
+/* 180px */
+.order-item .item-big {
+    width: 180px;
+    position: relative;
+    min-height: 160px;
+
+
+}
+
+.order-item .item-big .big1 {
+    position: absolute;
+    left: 20%;
+    top: 3%;
+ }
+  
+.item-big .big2 {
+     position: absolute;
+     left: 15%;
+    top: 20%; 
+    text-align: center
+   
+   
+}
+.order-item .item-big .big2 span{
+    display: block;
+   
+}
+/* 140px */
+.order-item .item-sml{
+    width: 140px;
+    min-height: 160px; 
+    
+}
+.item-sml .sml span{
+    display: inline-block;  
+    line-height: 160px;
+    margin-left: 5px;
+}
+.buying{
+    width:86%;
+    height: 50px;   
+    margin: 0 auto;
+    position: relative;
+    padding-left: 50px;
+}
+.buying span{
+    display: block;
+    float: left;
+   
+}
+.buying .price{
+    font-size: 14px;
+    display: table-cell;
+    line-height: 50px;
+}
+.buying .price-num{
+    display: table-cell;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 50px;
+    color: yellowgreen
+    
+}
+.buying a{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color:#0081BC; 
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 15px;
+    color:#fff; 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.posi{
+    float: right;
+}
